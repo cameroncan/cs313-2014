@@ -208,6 +208,10 @@ line-height: 1.4;
 
 <section class='container'>
           <hgroup>
+            <h1>Hello World!</h1>
+          </hgroup>
+
+<!--          <hgroup>
             <h1>Welcome to your PHP application on OpenShift</h1>
           </hgroup>
 
@@ -267,7 +271,7 @@ $ git push</pre>
 
         <footer>
           <div class="logo"><a href="https://www.openshift.com/"></a></div>
-        </footer>
+        </footer> -->
 </section>
 
 </body>
