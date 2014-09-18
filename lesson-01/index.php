@@ -40,7 +40,7 @@
                         <p>
                             <?php
                                 foreach (glob("lesson-*") as $lesson) {
-                                    echo "<div class=\"lesson\"><a href=\"$lesson/index.php\" target=\"_blank\">$lesson</a></div>";
+                                    echo "<div class=\"lesson\"><a href=\"$lesson/index.php\">$lesson</a></div>";
                                 }
                             ?>
                         </p>
