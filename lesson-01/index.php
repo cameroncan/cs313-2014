@@ -3,7 +3,7 @@
 <head>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
-    <link rel="stylesheet" href="styles.css" type="text/css"/>
+    <link rel="stylesheet" href="/byui/styles.css" type="text/css"/>
     <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" />
     <script>
         $(function() {
@@ -18,7 +18,7 @@
                 <h2>Brother Christiansen's homepage</h2>
                 <div class="subtitle">Powered by php and jquery</div>
             </div>
-            <div class="mugshot"><img src="images/christiansenca.jpg" /></div>
+            <div class="mugshot"><img src="/byui/images/christiansenca.jpg" /></div>
             <div class="body">
                 <div id="tabs">
                     <ul>
@@ -40,7 +40,7 @@
                         <p>
                             <?php
                                 foreach (glob("lesson-*") as $lesson) {
-                                    echo "<div class=\"lesson\"><a href=\"$lesson/index.php\" target=\"_blank\">$lesson</a></div>";
+                                    echo "<div class=\"lesson\"><a href=\"$lesson/index.php\">$lesson</a></div>";
                                 }
                             ?>
                         </p>
