@@ -39,8 +39,9 @@
                         <p>Dynamic list using php to find folders and create links for assignments:</p>
                         <p>
                             <?php
-                                foreach (glob("lesson-*") as $lesson) {
-                                    echo "<div class=\"lesson\"><a href=\"$lesson/index.php\">$lesson</a></div>";
+                                foreach (glob("../lesson-*") as $lesson) {
+                                    $lessonStr = substr($lesson, 3);
+                                    echo "<div class=\"lesson\"><a href=\"$lesson/index.php\">$lessonStr</a></div>";
                                 }
                             ?>
                         </p>
